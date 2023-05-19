@@ -1,6 +1,5 @@
-name: Feature Request
-description: Want a feature? Ask; we don't bite!
-labels: 'enhancement'
+name: Feature Request for Parent Tweet
+description: Would it be possible to implement a way to get the content of a parent tweet in which an account is mentioned? Example: @UserA tweets "hello world". @UserB mentions @UserC in a reply. Retrieve the contents of @userA's tweet. 'enhancement'
 body:
   - type: markdown
     attributes:
@@ -11,7 +10,7 @@ body:
     validations:
       required: true
     attributes:
-      label: Describe the feature
+      label: Would it be possible to implement a way to get the content of a parent tweet in which an account is mentioned? Example: @UserA tweets "hello world". @UserB mentions @UserC in a reply. Retrieve the contents of @userA's tweet. 'enhancement'
       description: A clear description of what the feature is.
   - type: textarea
     validations:
